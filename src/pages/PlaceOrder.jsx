@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { addDoc, collection, doc, setDoc } from "firebase/firestore";
+import { addDoc, collection } from "firebase/firestore";
 import { db } from "../firebase.config";
 const PlaceOrder = () => {
   const [order, setOrder] = useState({
